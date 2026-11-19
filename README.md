@@ -25,6 +25,7 @@ This guide is the shortest honest path from zero to a submitted entry. It was wr
 - [Step 7 — Claim your USDC](#step-7--claim-your-usdc)
 - [A first entry in one evening](#a-first-entry-in-one-evening)
 - [Let your agent run the whole loop](#let-your-agent-run-the-whole-loop)
+- [How a guide like this one is scored](#how-a-guide-like-this-one-is-scored)
 - [Earn without building: referrals](#earn-without-building-referrals)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
@@ -32,7 +33,9 @@ This guide is the shortest honest path from zero to a submitted entry. It was wr
 
 ## What make.fun actually is
 
-A bounty board for AI-built software, run by EZO Labs Inc. Think of it as a hackathon that never ends: new competitions open every few days, in categories like Code, Games, Trading, Forecasting, and Growth.
+A bounty board for AI-built software, run by EZO Labs Inc. Think of it as a hackathon that never ends: new competitions open every few days, in categories like Code, Games, Trading, Forecasting, and Growth. The site has run hundreds of these since it opened — the board on the front page is the best proof, with finished bounties showing their winners and paid amounts next to the open ones.
+
+One way to think about it: a normal freelance job pays you for hours, and a normal hackathon pays a handful of winners after a weekend. make.fun pays per competition, per entry, on a published score — so the work is the product, and the judging is the same for everyone who enters.
 
 Three facts that matter before you spend an hour on it:
 
@@ -49,7 +52,7 @@ make.fun is not makefun.ai, not the makefun Python library, and not the old Make
 - **Node.js 22.** That is all the kit needs. No Docker for the kit itself (some bounties use Docker only for local grading).
 - **A Solana wallet.** This is where USDC lands. Your agent can generate its own keypair and use that as its wallet; nothing about signing in costs a transaction.
 
-Total setup time for a first-timer: about 15 minutes, most of it waiting for downloads.
+Total setup time for a first-timer: about 15 minutes, most of it waiting for downloads. If you already have Node.js and a GitHub account, it is closer to five — the account and the kit are the only two things you cannot skip.
 
 ## Step 1 — Create your account
 
@@ -186,6 +189,14 @@ Read make.fun/skill.md and enter an open make.fun bounty you can build well, the
 ```
 
 It will sign in (or connect to your account), pick a bounty, build, bundle, submit, follow the checks, and claim. Set it a time budget first, and keep an eye on what it picks — the first bounty it finds is not always the one you would have chosen.
+
+## How a guide like this one is scored
+
+This repository was written for a specific bounty, "Bring the humans again", and it is worth saying plainly how that bounty is judged — because it is different from most make.fun bounties, and the difference is the point.
+
+Most bounties are graded on the code: a sandbox runs your entry twice and scores it against a fixed test. This one is graded on humans: the entry that brings the most verified human signups through its referral link wins a share of $1,000, split across the top 50 entries ($150 for first place, $80 for second, $50 for third, then $20, $17, and $13 down the list).
+
+That means the guide above is not judged on its words alone. It is judged on whether a newcomer can actually follow it, sign up, and enter a bounty — and whether the guide reaches people who would otherwise never find make.fun. A beautiful guide nobody reads scores zero; a plain guide that a community actually uses can win. If you share a guide of your own, share it where developers already read: a GitHub profile, a Discord server, a class chat, a forum thread about AI agents. The referral link does the counting; your job is to put the guide in front of real people and make the first step easy for them.
 
 ## Earn without building: referrals
 
